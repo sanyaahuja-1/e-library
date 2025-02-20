@@ -1,0 +1,35 @@
+from tkinter import *
+from tkinter import messagebox
+from tkinter import font as xy #font
+from books import *
+def fantasy():
+ root=Tk() #constructor function
+ root.title("words of wonder")#title bar
+ c=xy.Font(family="monotype corsiva",size=25)#font command
+ ca=Canvas(root)
+ hf= Frame(root,bg="brown",bd=5)
+ hf.place(relx=0.25,rely=0.02,relheight=0.08,relwidth=0.58)
+ hlable=Label(hf,text="Fantasy....",fg="white",bg="brown",font=c)
+ hlable.place(relx=0.01,rely=0.02,relheight=1.0,relwidth=0.9)
+ a=Button(root,text="Game of Thrones",bg="black",fg="white",font=c,
+command=got)
+ a.place(relx=0.3,rely=0.1,relheight=0.1,relwidth=0.45)
+ a1=Button(root,text="Legacy of nine realms
+series",bg="black",fg="white",font=c, command=lonr)
+ a1.place(relx=0.3,rely=0.2,relheight=0.1,relwidth=0.45)
+ a2=Button(root,text="Children of blood and
+bone",bg="black",fg="white",font=c, command=cobab)
+ a2.place(relx=0.3,rely=0.3,relheight=0.1,relwidth=0.45)
+ a3=Button(root,text="Kingdom of wicked",bg="black",fg="white",font=c,
+command=kow)
+ a3.place(relx=0.3,rely=0.4,relheight=0.1,relwidth=0.45)
+ a4=Button(root,text="The blade itself",bg="black",fg="white",font=c,
+command=tbi)
+ a4.place(relx=0.3,rely=0.5,relheight=0.1,relwidth=0.45)
+ a5=Button(root,text="Dune",bg="black",fg="white",font=c,
+command=dune)
+ a5.place(relx=0.3,rely=0.6,relheight=0.1,relwidth=0.45)
+ a6=Button(root,text="A touch of darkness",bg="black",fg="white",font=c,
+command=atod)
+ a6.place(relx=0.3,rely=0.7,relheight=0.1,relwidth=0.45)
+ root.mainloop()
