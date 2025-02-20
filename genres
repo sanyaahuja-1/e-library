@@ -1,0 +1,48 @@
+from tkinter import *
+from tkinter import messagebox
+from tkinter import font as xy #font
+from romantic import *
+from adventure import *
+from drama import *
+from comedy import *
+from motivational import *
+from fantasy import *
+from horror import *
+def types():
+ root=Tk() #constructor function
+ root.title("words of wonder")#title bar
+ c=xy.Font(family="monotype corsiva",size=25)#font command
+ hf= Frame(root,bg="brown",bd=5)
+ hf.place(relx=0.25,rely=0.02,relheight=0.08,relwidth=0.58)
+ hlable=Label(hf,text="WHAT WOULD YOU LIKE TO READ
+TODAY?",fg="white",bg="brown",font=c)
+ hlable.place(relx=0.01,rely=0.02,relheight=1.0,relwidth=0.9)
+
+b=Button(root,text="Romantic",bg="black",fg="white",font=c,command=ro
+mantic)
+ b.place(relx=0.3,rely=0.1,relheight=0.1,relwidth=0.45)
+
+b1=Button(root,text="Adventure",bg="black",fg="white",font=c,command=a
+dventure)
+b1.place(relx=0.3,rely=0.2,relheight=0.1,relwidth=0.45)
+
+b2=Button(root,text="Drama",bg="black",fg="white",font=c,command=dra
+ma)
+ b2.place(relx=0.3,rely=0.3,relheight=0.1,relwidth=0.45)
+
+b3=Button(root,text="Comedy",bg="black",fg="white",font=c,command=co
+medy)
+ b3.place(relx=0.3,rely=0.4,relheight=0.1,relwidth=0.45)
+
+b4=Button(root,text="Motivational",bg="black",fg="white",font=c,command
+=motivational)
+ b4.place(relx=0.3,rely=0.5,relheight=0.1,relwidth=0.45)
+
+b5=Button(root,text="Fantasy",bg="black",fg="white",font=c,command=fant
+asy)
+ b5.place(relx=0.3,rely=0.6,relheight=0.1,relwidth=0.45)
+
+b6=Button(root,text="Horror",bg="black",fg="white",font=c,command=horr
+or)
+ b6.place(relx=0.3,rely=0.7,relheight=0.1,relwidth=0.45)
+ root.mainloop()
