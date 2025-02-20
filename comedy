@@ -1,0 +1,35 @@
+from tkinter import *
+from tkinter import messagebox
+from tkinter import font as xy #font
+from books import *
+def comedy():
+ root=Tk() #constructor function
+ root.title("words of wonder")#title bar
+ c=xy.Font(family="monotype corsiva",size=25)#font command
+ ca=Canvas(root)
+ hf= Frame(root,bg="brown",bd=5)
+ hf.place(relx=0.25,rely=0.02,relheight=0.08,relwidth=0.58)
+ hlable=Label(hf,text="Comedy....",fg="white",bg="brown",font=c)
+ hlable.place(relx=0.01,rely=0.02,relheight=1.0,relwidth=0.9)
+ a=Button(root,text="Lucky Jim",bg="black",fg="white",font=c,
+command=lj)
+ a.place(relx=0.3,rely=0.1,relheight=0.1,relwidth=0.45)
+ a1=Button(root,text="The Hating Game",bg="black",fg="white",font=c,
+command=thg)
+ a1.place(relx=0.3,rely=0.2,relheight=0.1,relwidth=0.45)
+ a2=Button(root,text="Good Omens",bg="black",fg="white",font=c,
+command=go)
+ a2.place(relx=0.3,rely=0.3,relheight=0.1,relwidth=0.45)
+ a3=Button(root,text="Bossy Pants",bg="black",fg="white",font=c,
+command=bp)
+ a3.place(relx=0.3,rely=0.4,relheight=0.1,relwidth=0.45)
+ a4=Button(root,text="Big Trouble",bg="black",fg="white",font=c,
+command=bt)
+ a4.place(relx=0.3,rely=0.5,relheight=0.1,relwidth=0.45)
+ a5=Button(root,text="Kiss My Cupcake",bg="black",fg="white",font=c,
+command=kmc)
+ a5.place(relx=0.3,rely=0.6,relheight=0.1,relwidth=0.45)
+ a6=Button(root,text="Cat's craddle",bg="black",fg="white",font=c,
+command=ccc)
+ a6.place(relx=0.3,rely=0.7,relheight=0.1,relwidth=0.45)
+ root.mainloop()
