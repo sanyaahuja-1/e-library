@@ -1,0 +1,35 @@
+from tkinter import *
+from tkinter import messagebox
+from tkinter import font as xy #font
+from books import *
+def motivational():
+ root=Tk() #constructor function
+ root.title("words of wonder")#title bar
+ c=xy.Font(family="monotype corsiva",size=25)#font command
+ ca=Canvas(root)
+ hf= Frame(root,bg="brown",bd=5)
+ hf.place(relx=0.25,rely=0.02,relheight=0.08,relwidth=0.58)
+ hlable=Label(hf,text="Motivational....",fg="white",bg="brown",font=c)
+ hlable.place(relx=0.01,rely=0.02,relheight=1.0,relwidth=0.9)
+ a=Button(root,text="The Secret",bg="black",fg="white",font=c,
+command=ts)
+ a.place(relx=0.3,rely=0.1,relheight=0.1,relwidth=0.45)
+ a1=Button(root,text="The subtle art of not giving a
+f*ck",bg="black",fg="white",font=c, command=tsangaf)
+ a1.place(relx=0.3,rely=0.2,relheight=0.1,relwidth=0.45)
+ a2=Button(root,text="Girl, stop apologising",bg="black",fg="white",font=c,
+command=gsa)
+ a2.place(relx=0.3,rely=0.3,relheight=0.1,relwidth=0.45)
+ a3=Button(root,text="Make your bed",bg="black",fg="white",font=c,
+command=myb)
+ a3.place(relx=0.3,rely=0.4,relheight=0.1,relwidth=0.45)
+ a4=Button(root,text="Jeet Apki",bg="black",fg="white",font=c,
+command=ja)
+ a4.place(relx=0.3,rely=0.5,relheight=0.1,relwidth=0.45)
+ a5=Button(root,text="Dare To Lead",bg="black",fg="white",font=c,
+command=dtl)
+ a5.place(relx=0.3,rely=0.6,relheight=0.1,relwidth=0.45)
+ a6=Button(root,text="Unfinished",bg="black",fg="white",font=c,
+command=unfinished)
+ a6.place(relx=0.3,rely=0.7,relheight=0.1,relwidth=0.45)
+ root.mainloop()
