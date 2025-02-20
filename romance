@@ -1,0 +1,35 @@
+from tkinter import *
+from tkinter import messagebox
+from tkinter import font as xy #font
+from books import *
+def romantic():
+ root=Tk() #constructor function
+ root.title("words of wonder")#title bar
+ c=xy.Font(family="monotype corsiva",size=25)#font command
+ ca=Canvas(root)
+ hf= Frame(root,bg="brown",bd=5)
+ hf.place(relx=0.25,rely=0.02,relheight=0.08,relwidth=0.58)
+ hlable=Label(hf,text="Romantic....",fg="white",bg="brown",font=c)
+ hlable.place(relx=0.01,rely=0.02,relheight=1.0,relwidth=0.9)
+ a=Button(root,text="From Blood & Ash
+series",bg="black",fg="white",font=c, command=baas)
+ a.place(relx=0.3,rely=0.1,relheight=0.1,relwidth=0.45)
+ a1=Button(root,text="Spanish Love
+Deception",bg="black",fg="white",font=c, command=sld)
+ a1.place(relx=0.3,rely=0.2,relheight=0.1,relwidth=0.45)
+ a2=Button(root,text="othalo",bg="black",fg="white",font=c,
+command=othalo)
+ a2.place(relx=0.3,rely=0.3,relheight=0.1,relwidth=0.45)
+ a3=Button(root,text="The Love Hypothesis",bg="black",fg="white",font=c,
+command=tlh)
+ a3.place(relx=0.3,rely=0.4,relheight=0.1,relwidth=0.45)
+ a4=Button(root,text="A Court Of Thorns And Roses
+(series)",bg="black",fg="white",font=c, command=actor)
+ a4.place(relx=0.3,rely=0.5,relheight=0.1,relwidth=0.45)
+ a5=Button(root,text="Feather",bg="black",fg="white",font=c,
+command=feather)
+ a5.place(relx=0.3,rely=0.6,relheight=0.1,relwidth=0.45)
+ a6=Button(root,text="Fifty Shades Of Gray",bg="black",fg="white",font=c,
+command=fsog)
+ a6.place(relx=0.3,rely=0.7,relheight=0.1,relwidth=0.45)
+ root.mainloop()
