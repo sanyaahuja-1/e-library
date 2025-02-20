@@ -1,0 +1,107 @@
+import webbrowser
+def baas():
+ webbrowser.open_new("https://jp.b-ok.as/book/5432301/15baab")
+def sld():
+ webbrowser.open_new("https://1lib.in/book/11729038/651ac3")
+def othalo():
+
+webbrowser.open_new("https://shakespeare.folger.edu/downloads/pdf/oth
+ello_PDF_FolgerShakespeare.pdf")
+def tlh():
+ webbrowser.open_new("https://1lib.in/book/17308801/33cee0")
+def actor():
+ webbrowser.open_new("https://1lib.in/book/3991993/5d41a1")
+def feather():
+ webbrowser.open_new("https://1lib.in/book/11280875/a85877")
+def fsog():
+ webbrowser.open_new("https://1lib.in/book/17569339/b3ca53")
+def tbk():
+ webbrowser.open_new("https://1lib.in/book/5540023/ada46c")
+def hs():
+ webbrowser.open_new("https://1lib.in/book/5010782/3923d8")
+def cc():
+ webbrowser.open_new("https://1lib.in/book/11163952/ee8885")
+def dwek():
+ webbrowser.open_new("https://1lib.in/book/11713431/5f294a")
+def tpp():
+ webbrowser.open_new("https://1lib.in/book/11188944/2365f6")
+def asie():
+ webbrowser.open_new("https://1lib.in/book/17576773/8e3d3e")
+def soc():
+ webbrowser.open_new("https://1lib.in/book/4655549/3eebe7")
+def tkr():
+ webbrowser.open_new("https://1lib.in/book/1236322/105789")
+def ta():
+ webbrowser.open_new("https://1lib.in/book/3558229/9b6b53")
+def tc():
+ webbrowser.open_new("https://1lib.in/book/5082841/898454")
+def f():
+ webbrowser.open_new("https://1lib.in/book/5082841/898454")
+def th():
+
+webbrowser.open_new("https://www.goodreads.com/book/show/11899.Th
+e_Hours")
+def humsafar():
+
+webbrowser.open_new("https://freebooksmania.com/2018/06/humsafarnovel-by-farhat-ishtiaq-pdf.html")
+def hia():
+ webbrowser.open_new("https://1lib.in/book/3728997/641150")
+def lj():
+ webbrowser.open_new("https://1lib.in/book/3742334/7ef152")
+def thg():
+ webbrowser.open_new("https://1lib.in/book/4740837/ca3ff5")
+def go():
+ webbrowser.open_new("https://1lib.in/book/1217333/ac38c1")
+def bp():
+ webbrowser.open_new("https://1lib.in/book/16959406/561518")
+def bt():
+ webbrowser.open_new("https://1lib.in/book/1122135/2f807b")
+def kmc():
+ webbrowser.open_new("https://1lib.in/book/5694379/2298c6")
+def ccc():
+webbrowser.open_new("https://www.teachingbooks.net/tb.cgi?tid=11338"
+)
+def ts():
+ webbrowser.open_new ("https://online.fliphtml5.com/dhkj/gxyc/#p=4")
+def tsangaf():
+ webbrowser.open_new("https://1lib.in/book/2765386/3121a6")
+def gsa():
+ webbrowser.open_new("https://1lib.in/book/3706192/ed4308")
+def myb():
+ webbrowser.open_new("https://1lib.in/book/2885355/16588a")
+def ja():
+ webbrowser.open_new("https://www.amazon.in/You-Can-Win-stepachievers/dp/9382951717/ref=sr_1_3?keywords=jeet+aapki+book+in+engli
+sh&qid=1642533129&sprefix=jeet+aapki+book+in+engl%2Caps%2C249&sr=
+8-3")
+def dtl():
+ webbrowser.open_new("https://1lib.in/book/3609467/affc73")
+def unfinished():
+ webbrowser.open_new("https://1lib.in/book/11554261/db2e7d")
+def got():
+ webbrowser.open_new("https://1lib.in/book/1055902/3a3447")
+def lonr():
+ webbrowser.open_new("https://1lib.in/book/5346803/2a37a4")
+def cobab():
+ webbrowser.open_new("https://1lib.in/book/3615533/36cc67")
+def kow():
+ webbrowser.open_new("https://1lib.in/book/6139494/616d66")
+def tbi():
+ webbrowser.open_new("https://1lib.in/book/1222593/3ee6a7")
+def dune():
+ webbrowser.open_new("https://1lib.in/book/1490631/0953e4")
+def atod():
+webbrowser.open_new("https://1lib.in/book/5349716/48fdae")
+def drakula():
+ webbrowser.open_new("https://1lib.in/book/846361/d4fe58")
+def tshi():
+ webbrowser.open_new("https://1lib.in/book/3856268/1b354b")
+def togi():
+ webbrowser.open_new("https://1lib.in/book/5627977/9746b9")
+def mg():
+ webbrowser.open_new("https://1lib.in/book/5597528/52cef6")
+def rings():
+ webbrowser.open_new("https://booksvooks.com/nonscrolablepdf/ringpdf-kaji-suzuki.html ")
+def hellh():
+ webbrowser.open_new("https://1lib.in/book/1127008/acac3d")
+def truins():
+ webbrowser.open_new("https://1lib.in/book/1621779/a78590")
