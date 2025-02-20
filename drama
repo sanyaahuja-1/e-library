@@ -1,0 +1,35 @@
+from tkinter import *
+from tkinter import messagebox
+from tkinter import font as xy #font
+from books import *
+def drama():
+ root=Tk() #constructor function
+ root.title("words of wonder")#title bar
+ c=xy.Font(family="monotype corsiva",size=25)#font command
+ ca=Canvas(root)
+ hf= Frame(root,bg="brown",bd=5)
+ hf.place(relx=0.25,rely=0.02,relheight=0.08,relwidth=0.58)
+ hlable=Label(hf,text="Drama....",fg="white",bg="brown",font=c)
+ hlable.place(relx=0.01,rely=0.02,relheight=1.0,relwidth=0.9)
+ a=Button(root,text="The kite runner",bg="black",fg="white",font=c,
+command=tkr)
+ a.place(relx=0.3,rely=0.1,relheight=0.1,relwidth=0.45)
+ a1=Button(root,text="The Alchemist",bg="black",fg="white",font=c,
+command=ta)
+ a1.place(relx=0.3,rely=0.2,relheight=0.1,relwidth=0.45)
+ a2=Button(root,text="The crucible",bg="black",fg="white",font=c,
+command=tc)
+ a2.place(relx=0.3,rely=0.3,relheight=0.1,relwidth=0.45)
+ a3=Button(root,text="Fahrenheit 451 ",bg="black",fg="white",font=c ,
+command=f)
+ a3.place(relx=0.3,rely=0.4,relheight=0.1,relwidth=0.45)
+ a4=Button(root,text="The hours",bg="black",fg="white",font=c,
+command=th)
+ a4.place(relx=0.3,rely=0.5,relheight=0.1,relwidth=0.45)
+ a5=Button(root,text="Humsafar",bg="black",fg="white",font=c,
+command= humsafar)
+ a5.place(relx=0.3,rely=0.6,relheight=0.1,relwidth=0.45)
+ a6=Button(root,text="Hearts in atlantis",bg="black",fg="white",font=c,
+command=hia)
+ a6.place(relx=0.3,rely=0.7,relheight=0.1,relwidth=0.45)
+ root.mainloop()
