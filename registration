@@ -1,0 +1,68 @@
+from tkinter import *
+from tkinter import messagebox
+from tkinter import font as xy #font
+import mysql.connector as sq
+from genres import *
+def register():
+ global bookInfo1 ,bookInfo2, bookInfo3,con, cur, registerdetails, root
+ root=Tk() #constructor function
+ root.title("words of wonder")#title bar
+ c=xy.Font(family="monotype corsiva",size=25)#font command
+ con = sq.connect(
+host="localhost",user="root",passwd="sanya",database="projectregistration
+")
+ cur = con.cursor()
+ hf= Frame(root,bg="brown",bd=5)
+ hf.place(relx=0.25,rely=0.1,relheight=0.13,relwidth=0.5)
+ hlable=Label(hf,text="Registration.",fg="violet",bg="black",font=c)
+ hlable.place(relx=0,rely=0,relheight=1,relwidth=1)
+ lF = Frame(root,bg='black')
+ lF.place(relx=0.1,rely=0.3,relwidth=0.8,relheight=0.2)
+ #Name
+ lb1 = Label(lF,text="NAME :", bg='black', fg='white')
+ lb1.place(relx=0.05,rely=0.2, relheight=0.08)
+
+ bookInfo1 = Entry(lF)
+bookInfo1.place(relx=0.3,rely=0.2, relwidth=0.62, relheight=0.08)
+
+ #Prefered_genre
+ lb2 = Label(lF,text="Prefered_genre", bg='black', fg='white')
+ lb2.place(relx=0.05,rely=0.35, relheight=0.08)
+
+ bookInfo2 = Entry(lF)
+ bookInfo2.place(relx=0.3,rely=0.35, relwidth=0.62, relheight=0.08)
+
+ #Age
+ lb3 = Label(lF,text="AGE :", bg='black', fg='white')
+ lb3.place(relx=0.05,rely=0.50, relheight=0.08)
+
+ bookInfo3 = Entry(lF)
+ bookInfo3.place(relx=0.3,rely=0.50, relwidth=0.62, relheight=0.08)
+ #Submit Button
+ SubmitBtn = Button(root,text="SUBMIT",bg='#d1ccc0',
+fg='black',command= lambda:[registration1(), types()])
+ SubmitBtn.place(relx=0.28,rely=0.9, relwidth=0.18,relheight=0.08)
+ quitBtn = Button(root,text="Quit",bg='#f7f1e3', fg='black',
+command=root.destroy)
+ quitBtn.place(relx=0.53,rely=0.9, relwidth=0.18,relheight=0.08)
+def registration1():
+
+ Name = bookInfo1.get()
+ prefered_genre = bookInfo2.get()
+ age = bookInfo3.get()
+preference = "insert into registerdetails values
+('"+Name+"','"+prefered_genre+"','"+age+"')"
+ try:
+ cur.execute(preference)
+ con.commit()
+ messagebox.showinfo('Success',"Congratulations!! You have been
+Registered")
+
+ except:
+ messagebox.showinfo("Error","Can't add data into Database")
+
+ print(Name)
+ print(prefered_genre)
+ print(age)
+
+ root.destroy()
